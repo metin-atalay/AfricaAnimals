@@ -69,7 +69,7 @@ struct AnimalDetailView: View {
                 //  MAP
                 
                 Group {
-                    HeadingView(headingImage: "map", headingText: "Did you Know ?")
+                    HeadingView(headingImage: "map", headingText: "Location")
                     
                     InsetMapView()
                 }
